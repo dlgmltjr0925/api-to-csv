@@ -1,20 +1,20 @@
 # API 조회 후 CSV 파일로 저장하는 서비스
 
-### 설치 방법
+---
+
+### 1. 설치
 
 ```bash
-$ npm install
+$ git clone https://github.com/dlgmltjr0925/api-to-csv
+$ cd api-to-csv
+$ npm install # or yarn
 ```
 
-or
+#
 
-```bash
-$ yarn
-```
+### 2. 실행
 
-### 실행
-
-#### 1. API URL 수정
+#### 1) API URL 수정
 
 index.js 파일의 API_URL을 올바른 주소로 변경
 
@@ -25,14 +25,8 @@ const API_URL =
 ...
 ```
 
-#### 2. Node로 실행
+#### 2) 실행
 
 ```bash
-$ npm start
-```
-
-or
-
-```bash
-$ yarn start
+$ npm start # or yarn start
 ```
