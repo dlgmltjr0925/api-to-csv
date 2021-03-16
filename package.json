@@ -1,0 +1,14 @@
+{
+  "name": "auto-save",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dateformat": "^4.5.1",
+    "xml-js": "^1.6.11"
+  }
+}
