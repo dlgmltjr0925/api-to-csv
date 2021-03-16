@@ -97,7 +97,10 @@ const main = async () => {
     saveResult(data, false); // 통합 파일 저장
   } catch (error) {
     console.error(error);
-    fs.appendFileSync(ERROR_FILE_PATH, `${error}` + '\n', { encoding: 'utf8' });
+    const now = dateFormat(new Date(), 'yyyymmddhhMM');
+    fs.appendFileSync(ERROR_FILE_PATH, `[${now}] ${error}` + '\n', {
+      encoding: 'utf8',
+    });
   }
 };
 

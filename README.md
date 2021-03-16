@@ -1,6 +1,6 @@
 # API 조회 후 CSV 파일로 저장하는 서비스
 
----
+#
 
 ### 1. 설치
 
@@ -30,3 +30,10 @@ const API_URL =
 ```bash
 $ npm start # or yarn start
 ```
+
+성공일 경우 results 디렉토리 아래에 파일 생성
+
+- 통합 : result.csv
+- 개별 : result_yyyymmddhhMM.csv
+
+오류가 있을 경우 logs 디렉토리 아래에 error.txt 참고
